@@ -2,19 +2,23 @@
 <html>
 <head>
 <title>Shan AI Signal Bot</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
-<body style="background:black;color:white;text-align:center;font-family:Arial;">
+<body>
 
-<h1 style="color:red;">Shan AI Signal Bot</h1>
+<h1>🤖 Shan AI Signal Bot</h1>
 
-<h3>Live Trading Signals</h3>
+<h2>Live Trading Signal</h2>
 
-<button style="padding:15px 30px;background:red;color:white;border:none;border-radius:10px;">
+<button onclick="generateSignal()">
 GET SIGNAL
 </button>
 
-<h2 style="color:lime;">CALL / PUT</h2>
+<h2 id="signal">--</h2>
+<h3 id="chance">--</h3>
+
+<script src="script.js"></script>
 
 </body>
 </html>
