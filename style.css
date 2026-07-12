@@ -1,43 +1,47 @@
 body{
-    margin:0;
-    padding:0;
-    background:#000;
-    color:white;
-    font-family:Arial,sans-serif;
-    text-align:center;
-}
-
-.container{
-    width:90%;
-    max-width:400px;
-    margin:30px auto;
-    padding:20px;
-    background:#111;
-    border:2px solid gold;
-    border-radius:15px;
+background:#111;
+color:white;
+font-family:Arial,sans-serif;
+text-align:center;
+margin:0;
+padding:20px;
 }
 
 h1{
-    color:gold;
+color:#FFD700;
 }
 
-.signal{
-    font-size:40px;
-    font-weight:bold;
-    margin:20px 0;
+.pair-box{
+margin:20px 0;
+}
+
+select{
+background:#222;
+color:white;
+padding:10px;
+margin:5px;
+border:2px solid #FFD700;
+border-radius:8px;
+font-size:16px;
 }
 
 button{
-    background:gold;
-    color:black;
-    border:none;
-    padding:15px 30px;
-    border-radius:10px;
-    font-size:18px;
-    cursor:pointer;
+background:#FFD700;
+color:black;
+padding:15px 35px;
+border:none;
+border-radius:10px;
+font-size:18px;
+font-weight:bold;
+cursor:pointer;
+}
+
+#signal{
+font-size:40px;
+margin-top:30px;
+font-weight:bold;
 }
 
 #chance{
-    font-size:22px;
-    margin-top:15px;
+font-size:25px;
 }
