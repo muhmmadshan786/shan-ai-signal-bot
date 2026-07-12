@@ -71,3 +71,26 @@ margin:10px;
 color:#FFD700;
 font-size:18px;
 }
+.currency-list{
+margin-top:20px;
+}
+
+.pair{
+display:flex;
+justify-content:space-between;
+background:#222;
+padding:15px;
+margin:10px 0;
+border-radius:10px;
+border:1px solid #444;
+}
+
+.green{
+color:#00ff66;
+font-weight:bold;
+}
+
+.red{
+color:#ff3333;
+font-weight:bold;
+}
